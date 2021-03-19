@@ -2,7 +2,7 @@
     margin: 0;
 }
 .cover{
-    background-image: url("images/image5.png");
+    background-image: url("./image5.png");
     height: 600px;
     background-repeat: no-repeat;
     background-size:unset ;
@@ -40,20 +40,28 @@ p{
     
     
 }
-.wave{
-   
-    height: 300px;
-    
-    display: flex;
-    
+#father{
+    width: 1450px;
+    height: 480px;
+    background-color: rgb(214, 191, 191);
+    flex: auto;
 }
 .mid1{
-
-width: 50%; 
+width: 30%; 
+background: rgb(175, 113, 113);
 }
 .mid2{
-    
-    width: 50%;      
+    width: 30%;
+    background-color: rgb(165, 100, 109);
+    left: 500px;
+    position: relative;
+     
+}
+.mid3{
+    width: 30%;
+    background-color: rgb(163, 110, 110);
+    left: 1000px;
+    position: relative;
 }
 h3{
     text-align: center;
@@ -78,14 +86,12 @@ a{
     margin: 30px;
 }
 .type{
-    
-    display: flexbox;
-    
+    display: flexbox;   
 }
-
 video{
     height: 400px;
-    width: 1340px;
+    width: 1000px;
     display: flexbox;
-    
+    left: 550px;
+    position: relative;
 }
